@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "A simple model"
+    columns:
+      - name: id
+        description: "The ID"
+      - name: message
+        description: "Greeting message"
